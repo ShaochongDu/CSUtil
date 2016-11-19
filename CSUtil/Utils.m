@@ -10,12 +10,12 @@
 
 @implementation Utils
 
-- (void)printString:(NSString *)str
++ (void)printString:(NSString *)str
 {
     NSLog(@"--%@--",str);
 }
 
-- (NSString *)whoAmI
++ (NSString *)whoAmI
 {
     return @"I'm sorry, I don't know.";
 }

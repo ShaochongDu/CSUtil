@@ -10,8 +10,8 @@
 
 @interface Utils : NSObject
 
-- (void)printString:(NSString *)str;
++ (void)printString:(NSString *)str;
 
-- (NSString *)whoAmI;
++ (NSString *)whoAmI;
 
 @end
